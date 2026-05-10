@@ -1,0 +1,29 @@
+//Sibiu
+    tmp_action = new_action("Sibiu", "Fagaras", 99);
+    g_ptr_array_add(actions, tmp_action);
+    tmp_action = new_action("Sibiu", "Ramnicu Valcea", 80);
+    g_ptr_array_add(actions, tmp_action);
+
+    //Fagaras
+    tmp_action = new_action("Fagaras", "Sibiu", 99);
+    g_ptr_array_add(actions, tmp_action);
+    tmp_action = new_action("Fagaras", "Bucharest", 211);
+    g_ptr_array_add(actions, tmp_action);
+
+    //Ramnicu Valcea
+    tmp_action = new_action("Ramnicu Valcea", "Sibiu", 80);
+    g_ptr_array_add(actions, tmp_action);
+    tmp_action = new_action("Ramnicu Valcea", "Pitesti", 97);
+    g_ptr_array_add(actions, tmp_action);
+
+    //Pitesti
+    tmp_action = new_action("Pitesti", "Ramnicu Valcea", 97);
+    g_ptr_array_add(actions, tmp_action);
+    tmp_action = new_action("Pitesti", "Bucharest", 101);
+    g_ptr_array_add(actions, tmp_action);
+
+    //Bucharest
+    tmp_action = new_action("Bucharest", "Fagaras", 211);
+    g_ptr_array_add(actions, tmp_action);
+    tmp_action = new_action("Bucharest", "Pitesti", 101);
+    g_ptr_array_add(actions, tmp_action);

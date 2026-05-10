@@ -1,0 +1,57 @@
+// Node 0
+tmp_action = new_action("0", "1", 5);
+g_ptr_array_add(actions, tmp_action);
+tmp_action = new_action("0", "3", 3);
+g_ptr_array_add(actions, tmp_action);
+
+// Node 1
+tmp_action = new_action("1", "0", 5);
+g_ptr_array_add(actions, tmp_action);
+tmp_action = new_action("1", "2", 1);
+g_ptr_array_add(actions, tmp_action);
+tmp_action = new_action("1", "4", 4);
+g_ptr_array_add(actions, tmp_action);
+
+// Node 2
+tmp_action = new_action("2", "1", 1);
+g_ptr_array_add(actions, tmp_action);
+tmp_action = new_action("2", "4", 6);
+g_ptr_array_add(actions, tmp_action);
+tmp_action = new_action("2", "6", 8);
+g_ptr_array_add(actions, tmp_action);
+
+// Node 3
+tmp_action = new_action("3", "0", 3);
+g_ptr_array_add(actions, tmp_action);
+tmp_action = new_action("3", "4", 2);
+g_ptr_array_add(actions, tmp_action);
+tmp_action = new_action("3", "5", 2);
+g_ptr_array_add(actions, tmp_action);
+tmp_action = new_action("3", "6", 8);
+g_ptr_array_add(actions, tmp_action);
+
+// Node 4
+tmp_action = new_action("4", "1", 4);
+g_ptr_array_add(actions, tmp_action);
+tmp_action = new_action("4", "2", 6);
+g_ptr_array_add(actions, tmp_action);
+tmp_action = new_action("4", "3", 2);
+g_ptr_array_add(actions, tmp_action);
+tmp_action = new_action("4", "6", 4);
+g_ptr_array_add(actions, tmp_action);
+
+// Node 5
+tmp_action = new_action("5", "3", 2);
+g_ptr_array_add(actions, tmp_action);
+tmp_action = new_action("5", "6", 3);
+g_ptr_array_add(actions, tmp_action);
+
+// Node 6
+tmp_action = new_action("6", "2", 8);
+g_ptr_array_add(actions, tmp_action);
+tmp_action = new_action("6", "3", 8);
+g_ptr_array_add(actions, tmp_action);
+tmp_action = new_action("6", "4", 4);
+g_ptr_array_add(actions, tmp_action);
+tmp_action = new_action("6", "5", 3);
+g_ptr_array_add(actions, tmp_action);
